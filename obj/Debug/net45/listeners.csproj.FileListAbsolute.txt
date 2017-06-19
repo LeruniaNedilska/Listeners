@@ -1,0 +1,6 @@
+C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\bin\Debug\net45\listeners.deps.json
+C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\bin\Debug\net45\listeners.runtimeconfig.json
+C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\bin\Debug\net45\listeners.runtimeconfig.dev.json
+C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\obj\Debug\net45\listeners.csprojResolveAssemblyReference.cache
+C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\obj\Debug\net45\listeners.csproj.listeners.exe.config
+C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\obj\Debug\net45\listeners.AssemblyInfo.cs

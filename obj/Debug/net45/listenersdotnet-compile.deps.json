@@ -1,0 +1,238 @@
+{
+  "runtimeTarget": {
+    "name": ".NETFramework,Version=v4.5/",
+    "signature": "4726400482a4233bb2709984d5d92c0102327318"
+  },
+  "compilationOptions": {
+    "defines": [
+      "DEBUG",
+      "TRACE",
+      "NET45"
+    ],
+    "platform": "x64",
+    "optimize": false,
+    "emitEntryPoint": true
+  },
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "listeners/1.0.0": {
+        "dependencies": {
+          "WebTrac.Common": "3.0.6299.21492",
+          "WebTrac.Geocoding": "1.0.0"
+        },
+        "compile": {
+          "listeners.exe": {}
+        }
+      },
+      "EntityFramework/6.1.3": {
+        "dependencies": {
+          "System.ComponentModel.DataAnnotations": "4.0.0.0"
+        },
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Identity.Core/2.2.0": {
+        "compile": {
+          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.1": {
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Npgsql/2.2.7": {
+        "compile": {
+          "lib/net45/Mono.Security.dll": {},
+          "lib/net45/Npgsql.dll": {}
+        }
+      },
+      "WebTrac.Common/3.0.6299.21492": {
+        "dependencies": {
+          "Microsoft.AspNet.Identity.Core": "2.2.0"
+        },
+        "compile": {
+          "lib/net45/WebTrac.Common.dll": {}
+        }
+      },
+      "WebTrac.Geocoding/1.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.1.3",
+          "Newtonsoft.Json": "10.0.1",
+          "Npgsql": "2.2.7"
+        },
+        "compile": {
+          "lib/net45/WebTrac.Geocoding.dll": {}
+        }
+      },
+      "mscorlib/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5/mscorlib.dll": {}
+        }
+      },
+      "System/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5/System.dll": {}
+        }
+      },
+      "System.Core/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5/System.Core.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5/Microsoft.CSharp.dll": {}
+        }
+      },
+      "System.ComponentModel.DataAnnotations/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5/System.ComponentModel.DataAnnotations.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/": {
+      "listeners/1.0.0": {
+        "dependencies": {
+          "WebTrac.Common": "3.0.6299.21492",
+          "WebTrac.Geocoding": "1.0.0"
+        },
+        "runtime": {
+          "listeners.exe": {}
+        }
+      },
+      "EntityFramework/6.1.3": {
+        "dependencies": {
+          "System.ComponentModel.DataAnnotations": "4.0.0.0"
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Identity.Core/2.2.0": {
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.1": {
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Npgsql/2.2.7": {
+        "runtime": {
+          "lib/net45/Mono.Security.dll": {},
+          "lib/net45/Npgsql.dll": {}
+        },
+        "resources": {
+          "lib/net45/de/Npgsql.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/es/Npgsql.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/fi/Npgsql.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/net45/fr/Npgsql.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/ja/Npgsql.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/zh-CN/Npgsql.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "WebTrac.Common/3.0.6299.21492": {
+        "dependencies": {
+          "Microsoft.AspNet.Identity.Core": "2.2.0"
+        },
+        "runtime": {
+          "lib/net45/WebTrac.Common.dll": {}
+        }
+      },
+      "WebTrac.Geocoding/1.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.1.3",
+          "Newtonsoft.Json": "10.0.1",
+          "Npgsql": "2.2.7"
+        },
+        "runtime": {
+          "lib/net45/WebTrac.Geocoding.dll": {}
+        }
+      },
+      "mscorlib/4.0.0.0": {},
+      "System/4.0.0.0": {},
+      "System.Core/4.0.0.0": {},
+      "Microsoft.CSharp/4.0.0.0": {},
+      "System.ComponentModel.DataAnnotations/4.0.0.0": {}
+    }
+  },
+  "libraries": {
+    "listeners/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework/6.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2xzFHAF3VVdmTR3//MygtQpwfbDjeaq+nQwCcokLzen7MKHOojPaxNPQPa4diHY1QtcR7zlHAJHNRqPB7W2Syw=="
+    },
+    "Microsoft.AspNet.Identity.Core/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TeLlgtqJhJxO/PdjVo3lrAqwIqVUvKTaR5nXb9Zt5c9pRFSO/tgFb4IV8miP9zQe0QfzQvnLz5KSZ5EMMfygaQ=="
+    },
+    "Newtonsoft.Json/10.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg=="
+    },
+    "Npgsql/2.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iFcCEaAqHJLUxrjFa2+l2cWEQ44sC2L2qapu5BAbewqxvOH9imo0mZVxm9VWjbIJw2RvYOKXeYPk/Ov809c1vQ=="
+    },
+    "WebTrac.Common/3.0.6299.21492": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2zUzSlXcnvhiArVTBohiYB8B4Y7hWUHXHEVFHotbU5ReT8kQgfgtPuPb+bCR8sDJp1fgtzh9HFLVqD9nDW/Z1g=="
+    },
+    "WebTrac.Geocoding/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2SEeoGpS7/UXbZV7FH6O464M6zQbgq/NPQTLsKWck1ziV/UbjjA4mC8qyUTgQvqkDh2TDxSDooNjMufhnUj+kQ=="
+    },
+    "mscorlib/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Core/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CSharp/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.ComponentModel.DataAnnotations/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,42 @@
+﻿-d:DEBUG
+-d:TRACE
+-d:NET45
+-nowarn:CS1701
+-nowarn:CS1702
+-nowarn:CS1705
+-platform:x64
+-debug:full
+-nostdlib
+-nologo
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\obj\Debug\net45\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\bin\Debug\net45\listeners.exe"
+-r:"C:\Users\Lerunia\.nuget\packages\EntityFramework\6.1.3\lib\net45\EntityFramework.SqlServer.dll"
+-r:"C:\Users\Lerunia\.nuget\packages\EntityFramework\6.1.3\lib\net45\EntityFramework.dll"
+-r:"C:\Users\Lerunia\.nuget\packages\Microsoft.AspNet.Identity.Core\2.2.0\lib\net45\Microsoft.AspNet.Identity.Core.dll"
+-r:"C:\Users\Lerunia\.nuget\packages\Newtonsoft.Json\10.0.1\lib\net45\Newtonsoft.Json.dll"
+-r:"C:\Users\Lerunia\.nuget\packages\Npgsql\2.2.7\lib\net45\Mono.Security.dll"
+-r:"C:\Users\Lerunia\.nuget\packages\Npgsql\2.2.7\lib\net45\Npgsql.dll"
+-r:"C:\Users\Lerunia\.nuget\packages\WebTrac.Common\3.0.6299.21492\lib\net45\WebTrac.Common.dll"
+-r:"C:\Users\Lerunia\.nuget\packages\WebTrac.Geocoding\1.0.0\lib\net45\WebTrac.Geocoding.dll"
+-r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll"
+-r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll"
+-r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll"
+-r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll"
+-r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.ComponentModel.DataAnnotations.dll"
+-resource:"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\obj\Debug\net45\listenersdotnet-compile.deps.json",listeners.deps.json
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\FixedQueue.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\Global.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\IListener.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\IListenerHub.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\ListenerHub.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\ListenerRepository.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\Message.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\Program.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\Startup.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\TcpListener.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\UdpListener.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\Unit.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\UnitPositionUpdater.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\UserPlace.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\Controllers\ListenerController.cs"
+"C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listeners — копия (2)\src\listeners\Repositories\IListenerRepository.cs"

@@ -1,0 +1,5 @@
+C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listen\src\listeners\bin\Debug\netstandard2.0\listeners.deps.json
+C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listen\src\listeners\bin\Debug\netstandard2.0\listeners.runtimeconfig.json
+C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listen\src\listeners\bin\Debug\netstandard2.0\listeners.runtimeconfig.dev.json
+C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listen\src\listeners\obj\Debug\netstandard2.0\listeners.AssemblyInfo.cs
+C:\Users\Lerunia\Documents\Visual Studio 2015\Projects\listen\src\listeners\obj\Debug\netstandard2.0\listeners.csprojResolveAssemblyReference.cache
