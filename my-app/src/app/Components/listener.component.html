@@ -1,0 +1,5 @@
+﻿<div id="{{name}}" class="tab-pane" [hidden]="ind != activeService" *ngIf="lastMessages?.length > 0">
+  <ul class="list-group">
+    <li [ngClass]="getStyle(message.type)" *ngFor="let message of filtered(lastMessages)" class="list-group-item">{{message?.message}}</li>
+  </ul>
+</div>

@@ -1,0 +1,22 @@
+﻿<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <form class="navbar-form" id="form">
+      <div class="form-group" style="margin-left: 35%;">
+        <input type="text" class="form-control" placeholder="Search" [(ngModel)]="search" name="search" />
+      </div>
+      <label [hidden]="activeService > 1"><input type="checkbox" value=0 checked [checked]="Normal" (change)="Normal = !Normal" />Normal</label>
+      <label [hidden]="activeService > 1"><input type="checkbox" value=1 checked [checked]="Warning" (change)="Warning = !Warning" />Warning</label>
+    </form>
+  </div>
+</nav>
+<div *ngIf="serviceList?.length > 0" class="col-md-4">
+  <ul class="nav nav-pills nav-stacked" id="myTab" role="tablist">
+    <li *ngFor="let service of serviceList; let index = index" [class.active]="index == activeService" (click)="setService(index)"><a role="tab" data-toggle="tab" href='#{{service?.name}}'>{{service?.name}}</a></li>
+  </ul>
+</div>
+<div class="col-md-8">
+  <div class="tab-content" style="border-left: 1px solid #2d2d2d;">
+    <udplistener [activeService]="activeService" [search]="search" [Normal]="Normal" [Warning]="Warning"></udplistener>
+    <tcplistener [activeService]="activeService" [search]="search" [Normal]="Normal" [Warning]="Warning"></tcplistener>
+  </div>
+</div>
